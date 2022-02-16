@@ -1,0 +1,71 @@
+body {
+    font-family: 'Jura', sans-serif;
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 84px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black, 0 0 25px palevioletred, 0 0 5px yellowgreen;
+}
+
+.form-wrap {
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#guess-form {
+    margin-top: 10px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 2px;
+    background: linear-gradient(to bottom right, firebrick, darkred);
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 12px;
+    box-shadow: 3px 3px 2px black;
+}
+
+button:active {
+    filter: brightness(70%);
+}
+
+.comment-wrap {
+    margin: 50px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+#compare-comment {
+    font-size: 24px;
+}
+
+#result-comment {
+    font-size: 32px;
+}
